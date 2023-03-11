@@ -2,6 +2,7 @@
   --primary-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --active-color: #404bbf;
+  --button-background: #4d5ae5;
 }
 
 .list {
@@ -73,6 +74,7 @@ body {
 }
 /* КНОПКИ */
 .btn-menu {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -80,7 +82,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--button-background);
+  cursor: pointer;
 }
 .btn-menu:hover,
 .btn-menu:focus {
