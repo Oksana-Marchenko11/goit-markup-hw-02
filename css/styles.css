@@ -13,7 +13,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 /* Хедер */
@@ -82,7 +82,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--button-background);
+  color: #4d5ae5;
   cursor: pointer;
 }
 .btn-menu:hover,
