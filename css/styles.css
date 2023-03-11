@@ -17,11 +17,11 @@ body {
 
 /* Хедер */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -44,8 +44,7 @@ body {
 .menu-link:focus {
   color: var(--active-color);
 }
-
-.nav-adress-mail-link {
+.nav-cont .nav-adress-mail-link {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
