@@ -95,12 +95,12 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background: var(--button-background);
   cursor: pointer;
 }
 .main-btn:hover,
 .main-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--active-color);
 }
 
 .list-our-policy {
@@ -159,7 +159,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--button-background);
   cursor: pointer;
 }
 .btn-menu:hover,
@@ -189,6 +189,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 /* ФУТЕР */
 .footer-portfolio {
