@@ -17,7 +17,7 @@ body {
 }
 
 /* Хедер */
-.logo {
+.logo-heder {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -27,10 +27,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: var(--button-background);
 }
 .web {
-  color: #4d5ae5;
+  color: var(--primary-text-color);
 }
 .menu-link {
   font-family: inherit;
@@ -72,6 +72,79 @@ body {
 .nav-adress-tel-link:focus {
   color: var(--active-color);
 }
+
+/* MAIN STUDIO */
+.hero {
+  background-color: var(--primary-text-color);
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #404bbf;
+}
+
+.list-our-policy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.descr-our-policy {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* MAIN PORTFOLIO */
 /* КНОПКИ */
 .btn-menu {
   font-family: "Roboto", sans-serif;
@@ -106,12 +179,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .produts-descriptions {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ФУТЕР */
 .footer-portfolio {
@@ -121,69 +194,22 @@ body {
   color: #f4f4fd;
 }
 
-/* СТУДІЯ */
-.main-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+/* ФУТЕР */
+.web-footer {
+  color: #f4f4fd;
 }
-
-.list-our-policy {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.footer {
+  background-color: var(--primary-text-color);
 }
-.descr-our-policy {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-.work {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.team {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-.position {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-.main-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
-}
-.main-btn:hover,
-.main-btn:focus {
-  background-color: #404bbf;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-background);
 }
