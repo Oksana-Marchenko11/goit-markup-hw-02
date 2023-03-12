@@ -62,8 +62,11 @@ body {
 } */
 
 .nav-adress-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -71,7 +74,6 @@ body {
 .nav-adress-link:focus {
   color: var(--active-color);
 }
-
 /* MAIN STUDIO */
 .hero {
   background-color: var(--primary-text-color);
